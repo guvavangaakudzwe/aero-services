@@ -1,0 +1,8 @@
+{
+  "name": "zim-agri-gis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zimbabwe agricultural GIS dashboard",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
