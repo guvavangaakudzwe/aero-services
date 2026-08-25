@@ -1,8 +1,10 @@
 services:
   - type: web
-    name: zim-agri-gis
-    runtime: node
+    name: zim-aero-gis
+    runtime: static
     buildCommand: ""
-    startCommand: npm start
-    healthCheckPath: /
-    autoDeploy: true
+    staticPublishPath: ./public
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
