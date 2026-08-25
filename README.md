@@ -1,14 +1,16 @@
-# Gokwe South Schools & Clinics Access Dashboard
+# Zimbabwe AeroGIS
 
-An interactive, deploy-ready web GIS dashboard for Gokwe South District, Midlands Province, Zimbabwe. It has interactive facility layers, map editing/drawing controls, removal controls, search queries and browser-based persistence for new field records.
+An interactive Leaflet dashboard for viewing Zimbabwe's official district boundaries, supplied major-town data, and the supplied WGS84 aeronautical chart.
 
-## Data transparency
+## Included source data
 
-- The dashboard reports 190 schools and 40 clinics from the Gokwe South RDC 2025 annual targets report; that report says 24 clinics were functional at its reporting time.
-- The displayed named facility points are limited OpenStreetMap-derived reference locations. They are not a complete official facility registry and must be field-verified before operational decisions.
-- The displayed Gokwe South extent follows the public district bounding box. The supplied ZIMSTAT/OCHA administrative GDB should be imported as the precise district geometry after approved access to that data.
+- `public/districts.geojson`: 91 district boundaries converted from the supplied ZIMSTAT/OCHA 2018 geodatabase.
+- `public/major-towns.geojson`: seven major towns converted from the supplied shapefile archive.
+- `public/aeronautical-chart.jpg`: the countrywide level-1 image from the supplied WGS84 aeronautical KMZ, placed as an optional georeferenced overlay.
 
-## Run locally
+Town cards link a town to its aerodrome reference. They intentionally do **not** claim live operational information. Check the current AIP and NOTAMs before flight planning or operational use.
+
+## Run and deploy
 
 Requires Node 18+.
 
@@ -16,8 +18,4 @@ Requires Node 18+.
 npm start
 ```
 
-Open http://localhost:10000.
-
-## Deploy to Render
-
-Push this folder to GitHub. In Render choose **New → Blueprint**, select the repository, and Render will use `render.yaml`. No environment variables are required.
+Use Render’s **New → Blueprint** flow after pushing the project to GitHub. `render.yaml` provides the service configuration.
