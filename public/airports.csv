@@ -1,0 +1,8 @@
+town,airport,icao,iata,longitude,latitude,source
+Harare,Robert Gabriel Mugabe International Airport,FVRG,HRE,31.092800,-17.931801,OurAirports
+Mutare,Mutare Airport,FVMU,UTA,32.627201,-18.997499,OurAirports
+Masvingo,Masvingo International Airport,FVMV,MVZ,30.859100,-20.055300,OurAirports
+Bulawayo,Joshua Mqabuko Nkomo International Airport,FVJN,BUQ,28.622897,-20.016284,OurAirports
+Gweru,Gweru Airport,FVGW,,29.735388,-19.549362,OurAirports
+Victoria Falls,Victoria Falls International Airport,FVFA,VFA,25.836867,-18.097437,OurAirports
+Kariba,Kariba Airport,FVKB,KAB,28.885000,-16.519800,OurAirports

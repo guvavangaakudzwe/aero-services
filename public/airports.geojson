@@ -1,0 +1,9 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"town":"Harare","name":"Robert Gabriel Mugabe International Airport","icao":"FVRG","iata":"HRE","source":"OurAirports"},"geometry":{"type":"Point","coordinates":[31.092800,-17.931801]}},
+{"type":"Feature","properties":{"town":"Mutare","name":"Mutare Airport","icao":"FVMU","iata":"UTA","source":"OurAirports"},"geometry":{"type":"Point","coordinates":[32.627201,-18.997499]}},
+{"type":"Feature","properties":{"town":"Masvingo","name":"Masvingo International Airport","icao":"FVMV","iata":"MVZ","source":"OurAirports"},"geometry":{"type":"Point","coordinates":[30.859100,-20.055300]}},
+{"type":"Feature","properties":{"town":"Bulawayo","name":"Joshua Mqabuko Nkomo International Airport","icao":"FVJN","iata":"BUQ","source":"OurAirports"},"geometry":{"type":"Point","coordinates":[28.622897,-20.016284]}},
+{"type":"Feature","properties":{"town":"Gweru","name":"Gweru Airport","icao":"FVGW","iata":"","source":"OurAirports"},"geometry":{"type":"Point","coordinates":[29.735388,-19.549362]}},
+{"type":"Feature","properties":{"town":"Victoria Falls","name":"Victoria Falls International Airport","icao":"FVFA","iata":"VFA","source":"OurAirports"},"geometry":{"type":"Point","coordinates":[25.836867,-18.097437]}},
+{"type":"Feature","properties":{"town":"Kariba","name":"Kariba Airport","icao":"FVKB","iata":"KAB","source":"OurAirports"},"geometry":{"type":"Point","coordinates":[28.885000,-16.519800]}}
+]}

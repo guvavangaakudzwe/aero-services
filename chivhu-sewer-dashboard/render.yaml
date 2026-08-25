@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: chivhu-sewer-gis
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./public
